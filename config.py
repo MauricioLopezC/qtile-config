@@ -469,6 +469,8 @@ def init_widgets_screen1():
 def init_widgets_screen2():
     widgets_screen2 = init_widgets_list()
     return widgets_screen2
+#fix this, second instance of stray crash on other monitors,
+#create other init_widgets_list() function with less widgets 
 
 widgets_screen1 = init_widgets_screen1()
 widgets_screen2 = init_widgets_screen2()
